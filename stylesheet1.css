@@ -1,0 +1,140 @@
+h1{
+    font-family:sansita swashed;
+}
+section{
+
+    background-color: hsl(190, 23%, 46%);
+    border-radius:3em;
+    display:absolute;
+}
+section:hover{
+
+    background-image:linear-gradient(45rad,hsl(327, 63%, 45%),white,#a0a0f2) ;
+    border-radius:3em;
+    display:absolute;
+    animation:5s moveright infinite;
+}
+@keyframe moveright{
+    0%{left:0px;}
+    25%{left:25px;}
+    75%{left:75px;}
+    100%{left:100px;}
+}
+.html1{
+    background-image:url("background.jpg");
+    background-repeat: no-repeat;
+    padding-left:1em;
+    background-position: 25em;
+    image-rendering: optimizeQuality;
+    animation: 5s mymove infinite;
+}
+@keyframes mymove {
+    from {background-position:  0em;}
+    to {background-position:  25em;}
+  }
+.nav{
+    background-image:linear-gradient(45rad, yellow, lightblue,cornflowerblue); 
+    padding:1 1em 0 2em; 
+    text-align:center;
+    border-radius:2cm; 
+    border-style:double;
+    border-color:cornflowerblue;
+    
+    }
+.display{
+    position:relative;
+    display:inline;
+    width:200px;
+    height:200px;
+    float:left;
+    padding-left: 2em;;
+}
+span{
+    color:yellowgreen;
+}
+footer{
+    padding-top:28em;
+    display:block;
+    text-shadow: 0.25em 0.25em #a0a0f2;
+    float:left;
+    text-align: center;
+}
+footer ul{
+    left:50px;
+    text-align: inherit;
+    list-style: none;
+}
+
+div nav a{
+    text-decoration:none;
+    color:black;
+    padding:10px 10px ;
+}
+div nav a:active{
+    text-decoration:none;
+    color:red;
+    padding:10px 10px ;
+}
+/*-------------------*/
+.th{
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    font-weight:normal;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+header{
+    text-align:center;
+}
+.infobody{
+    background-image:conic-gradient(red,yellow,orange,white);
+    padding-left:1em;
+    background-position: 50%;}
+.infoth{
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    font-weight:normal;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+.table{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+tr:nth-child(even){
+    background: purple;
+}
+tr:hover{
+    background: red;
+}
+.infotd{
+    border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+overflow:hidden;padding:10px 5px;word-break:normal;
+}
+.infoth1{
+    font-weight:normal;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+.infopage{font-family:sansita swashed;}
+/*-------------------------------------------------------*/
+.td{
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+
